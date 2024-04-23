@@ -25,10 +25,20 @@
         />
 
     <CheckBox
+        android:id="@+id/foodCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="96dp"
+        android:text="Food"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natureCheck" />
+
+    <CheckBox
         android:id="@+id/natureCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="236dp"
         android:text="Nature"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,47 +51,38 @@
         android:layout_marginTop="236dp"
         android:text="Music"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintStart_toEndOf="@+id/natureCheck"
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/foodCheck"
+        android:id="@+id/clothingCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="104dp"
-        android:text="Food"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/natureCheck" />
-
-    <CheckBox
-        android:id="@+id/sportsCheck"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="104dp"
-        android:text="Sports"
-        app:layout_constraintStart_toEndOf="@+id/foodCheck"
-        app:layout_constraintTop_toBottomOf="@+id/musicCheck" />
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="116dp"
+        android:text="Clothing"
+        app:layout_constraintStart_toEndOf="@+id/moviesCheck"
+        app:layout_constraintTop_toBottomOf="@+id/sportsCheck" />
 
     <CheckBox
         android:id="@+id/moviesCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="116dp"
         android:text="Movies"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/foodCheck" />
 
     <CheckBox
-        android:id="@+id/clothingCheck"
+        android:id="@+id/sportsCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="167dp"
-        android:layout_marginTop="116dp"
-        android:text="Clothing"
-        app:layout_constraintStart_toEndOf="@+id/moviesCheck"
-        app:layout_constraintTop_toBottomOf="@+id/sportsCheck" />
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="96dp"
+        android:text="Sports"
+        app:layout_constraintStart_toEndOf="@+id/foodCheck"
+        app:layout_constraintTop_toBottomOf="@+id/musicCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
